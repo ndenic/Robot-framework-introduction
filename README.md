@@ -37,5 +37,18 @@ Unutar ovih IDE trebamo da ubacimo i plugine kao i za Atom text editor
 - [Install IntelliJ](https://www.jetbrains.com/idea/download/#section=windows)
 - [Install Eclipse](https://www.eclipse.org/downloads/)
 
+#### Robocorp Lab
+Ovo je posebno razvojno okruženje za Robot framework koji za nas podešava environment ( instalira python , robot ... )
+- [Robocorp lab](https://robocorp.com/freedevtools)
+
+## Zvanična dokumentacija 
+- [Robot framework user guide](http://robotframework.org/robotframework/#user-guide)
+- [Standard libraries](http://robotframework.org/robotframework/#standard-libraries)
+
+## Preporuka
+Da bi lakše razumeli ovaj frameworka preporučujem sledeće tutorijale i dokumentaciju 
+- [Robocorp beginner course](https://robocorp.com/docs/courses/beginners-course) Kratak kurs u Robocorp lab-u (upoznavanje sa frameworkom i IDE-om)
+- [Test Automation University - Robot framework](https://testautomationu.applitools.com/robot-framework-tutorial/) Takodje kurs koji prolazi detaljno kroz instalaciju i pisanje testova u Visual Studio. 
+
 
 
