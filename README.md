@@ -34,8 +34,8 @@ autocomplete-robot-framework
 Testove u Robotu praktično možemo da pišemo bilo gde i u InteliJ i u Eclipse IDE , VSCode itd.
 Unutar ovih IDE trebamo da ubacimo i plugine kao i za Atom text editor 
 - [Install VSCode](https://code.visualstudio.com/download)
-- [Install IntelliJ] (https://www.jetbrains.com/idea/download/#section=windows)
-- [Install Eclipse] (https://www.eclipse.org/downloads/)
+- [Install IntelliJ](https://www.jetbrains.com/idea/download/#section=windows)
+- [Install Eclipse](https://www.eclipse.org/downloads/)
 
 
 
