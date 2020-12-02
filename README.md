@@ -1,6 +1,6 @@
 # Robot framework - Project setup
 
-Before you start the installation, make sure that you already have some of the above installed.
+Before you start the installation, make sure that you already have some of the below installed.
 In command line write :
 
 ```
