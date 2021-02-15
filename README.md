@@ -11,10 +11,19 @@ chromedriver --version
 ```
 
 ## Install Tools:
-- [Install python 3.6](https://www.python.org/downloads/)
+- [Install python 3+](https://www.python.org/downloads/)
 - [Install pip](https://pip.pypa.io/en/stable/installing/)
 - [Install Robot Framework](https://pypi.org/project/robotframework/)
 - [Install SeleniumLibrary and WebDrivers](http://robotframework.org/SeleniumLibrary/)
+
+## Create virtual environment for Python(robot framework)
+There are many tools available for creating and managing virtual Python environments
+ - The venv module, that comes shipped with Python (i.e., is part of the standard library).
+ - The virtualenv module.
+ - The pipenv module.
+ - The anaconda module.
+I recommend you to follow next link for instruction to create virtual environment for Robot framework.
+https://michaelhallik.github.io/blog/2021/02/04/Running-Robot-Framework-in-a-virtual-environment-pt-4
 
 ## Integrated Development Environment
 
@@ -30,10 +39,10 @@ language-robot-framework
 autocomplete-robot-framework
 ```
 
-We can write tests in Robot anywhere , in IntelliJ and in Eclipse IDE, VSCode, etc.
+We can write tests in Robot anywhere , in PyCharm and in Eclipse IDE, VSCode, etc.
 Within these IDE we need to integrate some plugins as well as for Atom text editor
 - [Install VSCode](https://code.visualstudio.com/download)
-- [Install IntelliJ](https://www.jetbrains.com/idea/download/#section=windows)
+- [Install PyCharm](https://www.jetbrains.com/pycharm/)
 - [Install Eclipse](https://www.eclipse.org/downloads/)
 
 #### Robocorp Lab
@@ -48,3 +57,4 @@ This is special IDE only for Robot framework that adjusts the environment for us
 To make this framework easier to understand, I recommend the following tutorials and documentation 
 - [Robocorp beginner course](https://robocorp.com/docs/courses/beginners-course) Short course in Robocorp lab (introduction to framework and IDE)
 - [Test Automation University - Robot framework](https://testautomationu.applitools.com/robot-framework-tutorial/) Also a course that goes through the installation and writing of tests in Visual Studio.
+- [Micheal Hallik blog](https://michaelhallik.github.io/tag/robotframework) I found this blog very useful for understanding the key things about robot framework and why we should use it in our project.
