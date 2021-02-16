@@ -58,3 +58,18 @@ To make this framework easier to understand, I recommend the following tutorials
 - [Robocorp beginner course](https://robocorp.com/docs/courses/beginners-course) Short course in Robocorp lab (introduction to framework and IDE)
 - [Test Automation University - Robot framework](https://testautomationu.applitools.com/robot-framework-tutorial/) Also a course that goes through the installation and writing of tests in Visual Studio.
 - [Micheal Hallik blog](https://michaelhallik.github.io/tag/robotframework) I found this blog very useful for understanding the key things about robot framework and why we should use it in our project.
+
+## Project structure
+For easier project management, I suggest using the following structure when creating an automation test project in Robot framework
+
+- Libraries (some our custom Libraries stored here)
+- Sample files (sample testing files like images,documents etc.)
+- Results (generated html xml results and screenshots etc)
+- Setup (setup files like test suite , configurating selenium etc.)
+- Tests (Tests folder where all tests are separated in Page folders where they have their robot test file and robot resource file 
+  - LoginPage
+      - loginTest.robot  (here we have some specific keywords for Login page and Test Cases)
+      - loginResources.robot ( in resource we place selectors and store them in variables)
+
+This is just my suggestion, there is no specific set of rules on how to write a project in a Robot framework such as Page Object Model or something like that in Java ,but it remains to us, to organize the easiest way to navigate through the project.
+ ![Project structure](https://i.ibb.co/9vtsmKY/project-Structure.png)
